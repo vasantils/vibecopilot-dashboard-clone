@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeCopilot - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="menu-toggle">☰</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">👤</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">⊞</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">👥</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📋</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📦</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">💻</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📱</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📄</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">📡</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="dashboard-header">
+                <div class="header-left">
+                    <h1 class="page-title">Vibe Connect</h1>
+                </div>
+                <div class="header-right">
+                    <div class="user-dropdown">
+                        <span class="user-name">VC - Demo</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard-content">
+                <!-- Top Stats Row -->
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-title">Tickets Created</span>
+                            <span class="stat-icon">⬇</span>
+                        </div>
+                        <div class="stat-value">442</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-title">Pending</span>
+                            <span class="stat-icon">⬇</span>
+                        </div>
+                        <div class="stat-value">411</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-title">Complete</span>
+                            <span class="stat-icon">⬇</span>
+                        </div>
+                        <div class="stat-value">14</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-title">Development Done</span>
+                            <span class="stat-icon">⬇</span>
+                        </div>
+                        <div class="stat-value">3</div>
+                    </div>
+                </div>
+
+                <!-- Asset Section -->
+                <div class="section-header">
+                    <h2>Asset</h2>
+                    <div class="section-controls">
+                        <select class="filter-select">
+                            <option>select site</option>
+                        </select>
+                        <select class="filter-select">
+                            <option>Assets</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Dashboard Cards Grid -->
+                <div class="dashboard-grid">
+                    <!-- Row 1 -->
+                    <div class="dashboard-card blue-card">
+                        <div class="card-header">
+                            <span class="card-title">Total Asset</span>
+                            <div class="card-actions">
+                                <span class="card-icon">⬇</span>
+                                <span class="card-icon">ℹ</span>
+                            </div>
+                        </div>
+                        <div class="card-value">38</div>
+                    </div>
+
+                    <div class="dashboard-card green-card">
+                        <div class="card-header">
+                            <span class="card-title">Asset Breakdown</span>
+                            <div class="card-actions">
+                                <span class="card-icon">📊</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">2</div>
+                    </div>
+
+                    <div class="dashboard-card yellow-card">
+                        <div class="card-header">
+                            <span class="card-title">In Use Asset</span>
+                            <div class="card-actions">
+                                <span class="card-icon">⚠</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">36</div>
+                    </div>
+
+                    <div class="dashboard-card light-blue-card">
+                        <div class="card-header">
+                            <span class="card-title">PPM Scheduled</span>
+                            <div class="card-actions">
+                                <span class="card-icon">📅</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">14623</div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="dashboard-card red-card">
+                        <div class="card-header">
+                            <span class="card-title">PPM Overdue</span>
+                            <div class="card-actions">
+                                <span class="card-icon">⚠</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">14246</div>
+                    </div>
+
+                    <div class="dashboard-card teal-card">
+                        <div class="card-header">
+                            <span class="card-title">PPM Complete</span>
+                            <div class="card-actions">
+                                <span class="card-icon">✓</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">1</div>
+                    </div>
+
+                    <div class="dashboard-card light-blue-card">
+                        <div class="card-header">
+                            <span class="card-title">Routine Task Scheduled</span>
+                            <div class="card-actions">
+                                <span class="card-icon">📅</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">16906</div>
+                    </div>
+
+                    <div class="dashboard-card pink-card">
+                        <div class="card-header">
+                            <span class="card-title">Routine Task Overdue</span>
+                            <div class="card-actions">
+                                <span class="card-icon">⚠</span>
+                                <span class="card-icon">⬇</span>
+                            </div>
+                        </div>
+                        <div class="card-value">14227</div>
+                    </div>
+                </div>
+
+                <!-- Routine Task Complete Card -->
+                <div class="routine-task-card">
+                    <div class="routine-header">
+                        <span class="routine-title">Routine Task Complete</span>
+                        <div class="routine-actions">
+                            <span class="routine-icon">✓</span>
+                            <span class="routine-icon">⬇</span>
+                        </div>
+                    </div>
+                    <div class="routine-value">70</div>
+                </div>
+
+                <!-- Chart Section -->
+                <div class="charts-section">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <span class="chart-title">Total Asset</span>
+                            <div class="chart-actions">
+                                <span class="chart-icon">⬇</span>
+                                <span class="chart-icon">ℹ</span>
+                            </div>
+                        </div>
+                        <div class="chart-subtitle">Break Down: 2</div>
+                        <div class="chart-container">
+                            <div class="pie-chart green-chart">
+                                <div class="chart-center">
+                                    <div class="chart-label">In Use Asset: 36</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <span class="chart-title">Total PPM</span>
+                            <div class="chart-actions">
+                                <span class="chart-icon">⬇</span>
+                                <span class="chart-icon">ℹ</span>
+                            </div>
+                        </div>
+                        <div class="chart-subtitle">PPM Complete: 1</div>
+                        <div class="chart-container">
+                            <div class="pie-chart red-chart">
+                                <div class="chart-center">
+                                    <div class="chart-label">PPM Overdue: 14246</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2023 Digielves Tech Wizards Private Limited. All rights reserved</p>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
